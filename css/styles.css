@@ -228,9 +228,17 @@ a:hover {
 }
 
 .btns {
-  text-align: center;
   padding-top: 94px;
   padding-bottom: 50px;
+}
+
+.btns-portfolio {
+  display: flex;
+  justify-content: center;
+}
+
+.btns-portfolio li {
+  margin-right: 8px;
 }
 
 .btn-portfolio {
@@ -242,10 +250,9 @@ a:hover {
   line-height: 26px;
   letter-spacing: 0.03em;
   padding: 6px 22px;
-  margin-right: 8px;
 }
 
-.btn-portfolio:hover {
+.btns-portfolio :hover {
   background: var(--blue-text);
   color: var(--white-text);
 }
